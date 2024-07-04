@@ -11,7 +11,7 @@ jobs:
       - name: Checkout Unittests
         uses: actions/checkout@v2
         with:
-          repository: 'helsoc7/_classroom_unit_tests'
+          repository: 'Techstarter-GH-Classroom-Test/_classroom_unit_tests'
           path: unittests
           ref: 'main' 
       - name: Set up Python
